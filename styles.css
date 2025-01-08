@@ -1,10 +1,37 @@
 body {
     background-color: rgb(84, 228, 115);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 0;
 }
 
-.formSection {
+h1 {
+    text-align: center;
+}
+
+.form-section {
+    display: block;
     background-color: white;
-    width: 70%;
+    width: 50%;
     margin: auto;
+    padding: 2%;
+    line-height: 2;
+}
+
+.box {
+    width: 100%;
+    height: 30px;
+  }
+
+#review {
+    height: 75px;
+}
+
+#submit-btn {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(84, 228, 115);
+    border: 1px black;
 }
