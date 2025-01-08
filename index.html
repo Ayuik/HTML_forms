@@ -11,15 +11,19 @@
     <form>
         <label for="fname">Name</label><br>
             <input type="text" id="fname" name="fname" placeholder="Enter your name"><br>
+
         <label for="emailaddress">Email</label><br>
             <input type="email" id="emailaddress" name="email" placeholder="Enter your email"><br>
+
         <label for="age">Age</label><br>
             <input type="number" id="age" name="age" placeholder="Enter your age"><br>
+
         <label for="bestdescription">Which option best describes you?</label><br>
             <select id="bestdescription" name="bestdescription"> <br>
                 <option value="Student">Student</option>
                 <option value="Developer">Developer</option>
             </select>
+
         <p>Would you recommend GeeksforGeeks to a friend?</p>
         <input type="radio" id="yes" name="recommendation" value="yes">
             <label for="yes">Yes</label><br>
@@ -27,6 +31,7 @@
             <label for="css">No</label><br>
         <input type="radio" id="maybe" name="recommendation" value="maybe">
             <label for="maybe">Maybe</label><br>
+            
         <p>Languages and Framworks known</p><p>Check all that apply </p>
             <input type="checkbox" id="lang1" name="C" value="C">
             <label for="lang1">C</label><br>
@@ -59,7 +64,9 @@
             <label for="lang10">Spring</label><br>
         
         <label for="review">Any comments or suggestions</label><br>
-            <textarea id="review" name="review" rows="4" cols="50"></textarea>
+            <textarea id="review" name="review" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
