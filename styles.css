@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(84, 228, 115);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formSection {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
