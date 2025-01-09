@@ -12,22 +12,22 @@
         <div class="form-section">
             <form id="my-form">
                 <p><label for="fname">Name</label><br>
-                    <input type="text" id="fname" name="fname" placeholder="Enter your name" class="box"></p>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your name" class="box" required></p>
 
                 <p><label for="emailaddress">Email</label><br>
-                    <input type="email" id="emailaddress" name="email" placeholder="Enter your email" class="box"></p>
+                    <input type="email" id="emailaddress" name="email" placeholder="Enter your email" class="box" required></p>
 
                 <p><label for="age">Age</label><br>
-                    <input type="number" id="age" name="age" placeholder="Enter your age" class="box"></p>
+                    <input type="number" id="age" name="age" placeholder="Enter your age" class="box" required></p>
 
                 <p><label for="bestdescription">Which option best describes you?</label>
-                    <select id="bestdescription" name="bestdescription" class="box"> 
+                    <select id="bestdescription" name="bestdescription" class="box" required> 
                         <option value="Student">Student</option>
                         <option value="Developer">Developer</option>
                     </select></p>
 
                 <p>Would you recommend GeeksforGeeks to a friend?<br>
-                <input type="radio" id="yes" name="recommendation" value="yes">
+                <input type="radio" id="yes" name="recommendation" value="yes" required>
                     <label for="yes">Yes</label><br>
                 <input type="radio" id="css" name="recommendation" value="no">
                     <label for="css">No</label><br>
@@ -66,7 +66,7 @@
                     <label for="lang10">Spring</label></p>
                 
                 <p><label for="review">Any comments or suggestions</label><br>
-                    <textarea id="review" name="review" class="box"></textarea></p>
+                    <textarea id="review" name="review" class="box" required></textarea></p>
 
                 <input type="submit" value="Submit" id="submit-btn">
             </form>
