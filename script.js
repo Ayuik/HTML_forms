@@ -1,6 +1,4 @@
-console.log("hola")
-
-let submitBtn = document.getElementById('submit-btn');
+const submitBtn = document.getElementById('submit-btn');
 
 submitBtn.addEventListener('click', function(event) {
     event.preventDefault();
@@ -9,15 +7,13 @@ submitBtn.addEventListener('click', function(event) {
     const age = document.getElementById('age').value;
     const description = document.querySelector('select[id="bestdescription"]')?.value;
     const recommendation = document.querySelector('input[name="recommendation"]:checked')?.value;
-    //const languages = document.querySelector('input[type="checkbox"]:checked').value;
-    //const langChecked = []
-    //      langChecked.push(languages)
+    const languages = document.querySelectorAll('input[type="checkbox"]:checked');
+    const languagesChecked = [];
+          languages.forEach(language => {
+            languagesChecked.push(language.value)
+            })
     const review = document.getElementById('review').value;
 
-    let results = [name, email, age, description, recommendation, /*langChecked*/, review]
+    let results = [name, email, age, description, recommendation, languagesChecked, review]
     console.log(results)
-}
-)
-
-
-
+})
