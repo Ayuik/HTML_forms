@@ -9,10 +9,12 @@ submitBtn.addEventListener('click', function(event) {
     const age = document.getElementById('age').value;
     const description = document.querySelector('select[id="bestdescription"]')?.value;
     const recommendation = document.querySelector('input[name="recommendation"]:checked')?.value;
-    // const languages = [document.querySelector('input[type="checkbox"]:checked').value] mejorar, solo muestra el primero
+    //const languages = document.querySelector('input[type="checkbox"]:checked').value;
+    //const langChecked = []
+    //      langChecked.push(languages)
     const review = document.getElementById('review').value;
 
-    let results = [name, email, age, description, recommendation, /*languages,*/ review]
+    let results = [name, email, age, description, recommendation, /*langChecked*/, review]
     console.log(results)
 }
 )
