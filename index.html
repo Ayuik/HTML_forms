@@ -11,13 +11,13 @@
         
         <div class="form-section">
             <form id="my-form">
-                <p><label for="fname">Name</label><br>
+                <p><label for="fname">Name</label>
                     <input type="text" id="fname" name="fname" placeholder="Enter your name" class="box" required></p>
 
-                <p><label for="emailaddress">Email</label><br>
+                <p><label for="emailaddress">Email</label>
                     <input type="email" id="emailaddress" name="email" placeholder="Enter your email" class="box" required></p>
 
-                <p><label for="age">Age</label><br>
+                <p><label for="age">Age</label>
                     <input type="number" id="age" name="age" placeholder="Enter your age" class="box" required></p>
 
                 <p><label for="bestdescription">Which option best describes you?</label>
@@ -26,46 +26,63 @@
                         <option value="Developer">Developer</option>
                     </select></p>
 
-                <p>Would you recommend GeeksforGeeks to a friend?<br>
-                <input type="radio" id="yes" name="recommendation" value="yes" required>
-                    <label for="yes">Yes</label><br>
-                <input type="radio" id="css" name="recommendation" value="no">
-                    <label for="css">No</label><br>
-                <input type="radio" id="maybe" name="recommendation" value="maybe">
-                    <label for="maybe">Maybe</label></p>
+                <p>Would you recommend GeeksforGeeks to a friend?</p>
+                <div>
+                    <input type="radio" id="yes" name="recommendation" value="yes" required>
+                    <label for="yes">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="css" name="recommendation" value="no">
+                    <label for="css">No</label>
+                </div>
+                <div>
+                    <input type="radio" id="maybe" name="recommendation" value="maybe">
+                    <label for="maybe">Maybe</label>
+                </div>
 
-                <p>Languages and Framworks known.<small>Check all that apply</small><br>
+                <p>Languages and Framworks known.<small>Check all that apply</small></p>
+                <div>
                     <input type="checkbox" id="lang1" name="C" value="C">
-                    <label for="lang1">C</label><br>
-                    
+                    <label for="lang1">C</label>
+                </div>
+                <div>                    
                     <input type="checkbox" id="lang2" name="C++" value="C++">
-                    <label for="Lang2">C++</label><br>
-                    
+                    <label for="Lang2">C++</label>
+                </div>
+                <div>                    
                     <input type="checkbox" id="lang3" name="C#" value="C#">
-                    <label for="lang3">C#</label><br>
-                    
+                    <label for="lang3">C#</label>
+                </div>
+                <div>                   
                     <input type="checkbox" id="lang4" name="Java" value="Java">
-                    <label for="lang4">Java</label><br>
-
+                    <label for="lang4">Java</label>
+                </div>
+                <div>
                     <input type="checkbox" id="lang5" name="phyton" value="phyton">
-                    <label for="lang5">Phyton</label><br>
-                        
+                    <label for="lang5">Phyton</label>
+                </div>
+                <div>       
                     <input type="checkbox" id="lang6" name="javaScript" value="javaScript">
-                    <label for="lang6">JavaScript</label><br>
-
+                    <label for="lang6">JavaScript</label>
+                </div> 
+                <div>
                     <input type="checkbox" id="lang7" name="react" value="react">
-                    <label for="lang7">React</label><br>
-
+                    <label for="lang7">React</label>
+                </div>
+                <div>
                     <input type="checkbox" id="lang8" name="angular" value="angular">
-                    <label for="lang8">Angular</label><br>
-
+                    <label for="lang8">Angular</label>
+                </div>
+                <div>
                     <input type="checkbox" id="lang9" name="django" value="django">
-                    <label for="lang9">Django</label><br>
-
+                    <label for="lang9">Django</label>
+                </div>
+                <div>
                     <input type="checkbox" id="lang10" name="spring" value="spring">
-                    <label for="lang10">Spring</label></p>
+                    <label for="lang10">Spring</label>
+                </div>
                 
-                <p><label for="review">Any comments or suggestions</label><br>
+                <p><label for="review">Any comments or suggestions</label>
                     <textarea id="review" name="review" class="box" required></textarea></p>
 
                 <input type="submit" value="Submit" id="submit-btn">
