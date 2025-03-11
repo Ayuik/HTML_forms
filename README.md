@@ -15,3 +15,5 @@ Submit
 
 Additional Requirements:
 Once the form is completed, use JavaScript to print the data entered in the form to the browser's console.
+
+[Model form](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210323124900/Survey-Form.gif)
