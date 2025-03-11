@@ -1,29 +1,17 @@
-###Exercise Description
+Exercise Description
 The objective of this exercise is to create a form with the following minimum requirements:
-
-**Input Fields:
-
+Input Fields:
 Name
-
 Email
-
 Age
-
-**Select Field:
-
+Select Field:
 Which best option describes you?
-
-**Radio Buttons:
-
+Radio Buttons:
 Would you recommend this site? (Options: Yes, No, Maybe)
-
-**Checkboxes:
-
+Checkboxes:
 Languages and Frameworks known
-
-**Button:
-
+Button:
 Submit
 
-###Additional Requirements
+Additional Requirements
 Once the form is completed, use JavaScript to print the data entered in the form to the browser's console.
